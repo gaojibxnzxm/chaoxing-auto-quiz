@@ -1,0 +1,27 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 日志与临时产物
+*.log
+*.tmp
+.cache/
+
+# 本地凭证与配置（绝不提交）
+config.json
+.env
+.env.*
+*.token
+*.cookie
+credentials.json
+
+# 平台生成的本地元数据（含本机绝对路径与本机发布记录）
+_skillhub_meta.json
